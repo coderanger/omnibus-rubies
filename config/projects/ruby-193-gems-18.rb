@@ -1,7 +1,7 @@
 
 name "ruby-193-gems-18"
-maintainer "Chef"
-homepage "getchef.com"
+maintainer "Poise"
+homepage "ruby.poise.io"
 
 replaces        "ruby-193-gems-18"
 install_path    "/opt/ruby-193-gems-18"
@@ -13,6 +13,7 @@ dependency "preparation"
 
 dependency "ruby-193"
 dependency "rubygems-18"
+dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"

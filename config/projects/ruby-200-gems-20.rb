@@ -1,7 +1,8 @@
 
 name "ruby-200-gems-20"
-maintainer "Chef"
-homepage "getchef.com"
+maintainer "Poise"
+homepage "ruby.poise.io"
+
 
 replaces        "ruby-200-gems-20"
 install_path    "/opt/ruby-200-gems-20"
@@ -12,9 +13,8 @@ build_iteration 1
 dependency "preparation"
 
 dependency "ruby-200"
-
 # ruby 2.0 comes with rubygems 2.0 (?) -- verify
-#dependency "rubygems-20"
+dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"

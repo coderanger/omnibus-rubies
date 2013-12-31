@@ -1,7 +1,7 @@
 
 name "ruby-210"
-maintainer "Chef"
-homepage "getchef.com"
+maintainer "Poise"
+homepage "ruby.poise.io"
 
 replaces        "ruby-210"
 install_path    "/opt/ruby-210"
@@ -12,7 +12,8 @@ build_iteration 1
 dependency "preparation"
 
 dependency "ruby-210"
-# ruby 2.0 comes with rubygems 2.2
+# ruby 2.1 comes with rubygems 2.2
+dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"
