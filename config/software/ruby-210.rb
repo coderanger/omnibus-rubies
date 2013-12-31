@@ -65,7 +65,7 @@ build do
   # Lock the package version to be the same as the Ruby version
   block do
     project.build_version version
-    project.build_iteration ENV["RUBY_PACKAGE_ITERATION"].to_i || 1
+    project.build_iteration ENV["RUBY_PACKAGE_ITERATION"] ? ENV["RUBY_PACKAGE_ITERATION"].to_i : 1
   end
 
   configure_command = ["./configure",
