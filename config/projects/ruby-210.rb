@@ -21,4 +21,4 @@ dependency "version-manifest"
 exclude "\.git*"
 exclude "bundler\/git"
 
-File.umask('0022')
+File.umask(0022)
