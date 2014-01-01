@@ -22,3 +22,6 @@ dependency "version-manifest"
 
 exclude "\.git*"
 exclude "bundler\/git"
+
+# Force the umask because something in rbenv is resetting it to 0000
+File.umask(0022)
