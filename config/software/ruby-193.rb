@@ -18,6 +18,7 @@
 
 name "ruby-193"
 version "1.9.3-p484"
+always_build true
 
 dependency "zlib"
 dependency "ncurses"

@@ -17,6 +17,7 @@
 
 name "ruby-210"
 version "2.1.0"
+always_build true
 
 dependency "zlib"
 dependency "ncurses"

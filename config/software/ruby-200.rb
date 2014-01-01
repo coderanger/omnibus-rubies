@@ -17,6 +17,7 @@
 
 name "ruby-200"
 version "2.0.0-p353"
+always_build true
 
 dependency "zlib"
 dependency "ncurses"
