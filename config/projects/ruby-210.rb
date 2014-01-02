@@ -13,7 +13,6 @@ dependency "preparation"
 
 dependency "ruby-210"
 # ruby 2.1 comes with rubygems 2.2
-dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"

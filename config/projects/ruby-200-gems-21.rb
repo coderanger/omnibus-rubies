@@ -13,7 +13,6 @@ dependency "preparation"
 
 dependency "ruby-200"
 dependency "rubygems-21"
-dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"

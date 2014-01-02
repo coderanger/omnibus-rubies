@@ -72,6 +72,7 @@ build do
 
   configure_command = ["./configure",
                        "--prefix=#{install_dir}/embedded",
+                       "--bindir=#{install_dir}/bin",
                        "--with-opt-dir=#{install_dir}/embedded",
                        "--with-out-ext=fiddle",
                        "--enable-shared",

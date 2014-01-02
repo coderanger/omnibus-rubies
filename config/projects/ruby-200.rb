@@ -15,7 +15,6 @@ dependency "ruby-200"
 
 # ruby 2.0 comes with rubygems 2.0 (?) -- verify
 #dependency "rubygems-20"
-dependency "ruby-symlinks"
 
 # version manifest file
 dependency "version-manifest"
