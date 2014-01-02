@@ -1,10 +1,10 @@
 
-name "ruby-200-gems-20"
+name "poise-ruby-200-gems-20"
 maintainer "Poise"
 homepage "ruby.poise.io"
 
 
-replaces        "ruby-200-gems-20"
+replaces        "poise-ruby-200-gems-20"
 install_path    "/opt/ruby-200-gems-20"
 build_version   Omnibus::BuildVersion.new.semver
 build_iteration 1

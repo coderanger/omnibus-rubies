@@ -1,9 +1,9 @@
 
-name "ruby-200"
+name "poise-ruby-200"
 maintainer "Poise"
 homepage "ruby.poise.io"
 
-replaces        "ruby-200"
+replaces        "poise-ruby-200"
 install_path    "/opt/ruby-200"
 build_version   Omnibus::BuildVersion.new.semver
 build_iteration 1

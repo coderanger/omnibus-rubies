@@ -1,9 +1,9 @@
 
-name "ruby-210"
+name "poise-ruby-210"
 maintainer "Poise"
 homepage "ruby.poise.io"
 
-replaces        "ruby-210"
+replaces        "poise-ruby-210"
 install_path    "/opt/ruby-210"
 build_version   Omnibus::BuildVersion.new.semver
 build_iteration 1

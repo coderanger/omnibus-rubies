@@ -1,9 +1,9 @@
 
-name "ruby-193-gems-18"
+name "poise-ruby-193-gems-18"
 maintainer "Poise"
 homepage "ruby.poise.io"
 
-replaces        "ruby-193-gems-18"
+replaces        "poise-ruby-193-gems-18"
 install_path    "/opt/ruby-193-gems-18"
 build_version   Omnibus::BuildVersion.new.semver
 build_iteration 1
